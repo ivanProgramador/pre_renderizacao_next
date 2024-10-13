@@ -1,0 +1,16 @@
+Renderização SPA (A aplicação é renderizada no lado cliente)
+
+  O servidor requisita a url e recebe um arquivo html com a referencia de um arquivo js.
+  Quando esse arquivo chega no computatdor ele começa a controlar o dom, montando a aplicação
+  dentro do navegador no lado cliente, os processoso de atualização de dados são executados de
+  foma automática sem que cliente precise requisitar manualmente.     
+          
+
+
+
+Renderização SSR (A aplicação é renderizada no lado servidor usando apenas um arquivo fixo para todas as requisições )
+Renderização SSG (A aplicação é renderizada no lado servidor gerando um arquivo para cada requisição) 
+
+
+
+
