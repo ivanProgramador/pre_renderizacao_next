@@ -5,11 +5,17 @@ Renderização SPA (A aplicação é renderizada no lado cliente)
   dentro do navegador no lado cliente, os processoso de atualização de dados são executados de
   foma automática sem que cliente precise requisitar manualmente.     
           
+Renderização SSR 
+  
+  compila o arquivo e os dados para cada requisição dependendo dos parâmetros recebidos 
 
+   
 
+Renderização SSG
 
-Renderização SSR (A aplicação é renderizada no lado servidor usando apenas um arquivo fixo para todas as requisições )
-Renderização SSG (A aplicação é renderizada no lado servidor gerando um arquivo para cada requisição) 
+  Os aruivos ficam salvos dentro do servidor quando a requisição e feita os dados são adicionados ao arquivo
+  e enviados como resposta, ele pode sim consultar uma api ou uma base de dados mas esse processo fica dentro
+  do servidor, e o arquivo enviado é o mesmo requisitado mudando apenas os dados contidos no documento.
 
 
 
