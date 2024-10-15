@@ -1,15 +1,27 @@
 Renderização SPA 
+  (cliente só precisa requisitar uma vez)
 
   O servidor requisita a url e recebe um arquivo html com a referencia de um arquivo js.
-  Quando esse arquivo chega no computatdor ele começa a controlar o dom, montando a aplicação
+  Quando esse arquivo chega no computador ele começa a controlar o dom, montando a aplicação
   dentro do navegador no lado cliente, os processos de atualização de dados são executados de
   forma automática sem que cliente precise requisitar manualmente.     
           
 
 
 
-Renderização SSR (A aplicação é renderizada no lado servidor usando apenas um arquivo fixo para todas as requisições )
-Renderização SSG (A aplicação é renderizada no lado servidor gerando um arquivo para cada requisição) 
+Renderização SSR 
+
+ (cliente precisa requisitar manualmente mais de uma vez se quiser atualizar)
+
+ Gera um arquivo com os dados e depois envia como resposta da requisição dependendo dos parâmetros,
+ a view e redenrizada em tempo de execução(compilação).  
+
+Renderização SSG 
+ (cliente precisa requisitar manualmente mais de uma vez se quiser atualizar)
+
+ Os aruivos ja estt~çao salvos dentro do servodor quando o cliente requisita el pode fazer uma consulta em alguma api
+ ou na base de dados para atualizar os dados escritos na página depois disse ele envia o aruivo estático apenas com os
+ dados atualizados.     
 
 
 
